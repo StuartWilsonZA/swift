@@ -1,0 +1,161 @@
+
+/*
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #E9ECEC url(images/bg01.png) ;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	color: #3B3B3B;
+}
+body:after {
+        content: '';
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 50%;
+	height: 50%;
+	background: url('images/bg01.png');
+	z-index: -1;
+	opacity: .05;
+}
+
+h1, h2, h3 {
+	margin: 0px;
+	padding: 0px;
+	letter-spacing: -2px;
+	
+	font-weight: normal;
+	color: #2F6BCF;
+	
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.4em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+/* Header */
+
+#header-wrapper {
+}
+
+#header {
+	clear: both;
+	width: 575px;
+	margin: 0px auto;
+}
+/* Logo */
+#logo {
+	margin: 0px;
+	padding: 30px 0px;
+	color: #0082B0;
+	text-align: center;
+}
+#logo h1 {
+	margin: 0px;
+	padding: 0px;
+	
+	font-size: 3.8em;
+	color: #0082B0;
+}
+
+#logo h1 span {
+	color: #0082B0;
+}
+#logo p a {
+	color: #0082B0;
+}
+/* Page */
+#page {
+	overflow: hidden;
+	width: 600px;
+	margin: 0px auto 50px auto;
+	padding: 30px 30px 0 30px;
+	background: #FFF;
+	border: 1px solid rgba(0,0,0,.05);
+	box-shadow: 0px 0px 0px 10px rgba(0,0,0,0.03);
+	border-radius: 8px;
+}
+/* Content */
+
+#content {
+	text-align: center;
+	width: 600px;
+	
+}
+
+.post {
+	margin-bottom: 15px;
+}
+.post .title {
+	margin-bottom: 20px;
+	padding-left: 0.5em;
+	font-size: 32px;
+	color: #0082B0;
+	
+}
+.button
+{
+	padding: 10px 25px;
+	background: #000;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.loginPage {
+    margin-left: 120px7;
+}
+.menuPage {
+    margin-left: 60px;
+}
+td {
+    text-align: center; 
+    font-weight: bold;
+    color: red;
+}
+input{
+    width: 200px;
+}
+.submit
+{
+border-radius: 4px;
+border: none;
+font-size: 20px;
+padding: 10px;
+width: 200px;
+color: #0082B0;
+text-transform: uppercase;
+}
+.submit:hover{
+background-color: lightblue;
+}
+/* Footer */
+#footer {
+	width: 575px;
+	padding: 1em 1em 1em 1em;
+	background: rgba(0,0,0,.06);
+}
+
+#footer p {
+	
+        margin: 0;
+	padding-top: 0px;
+	line-height: normal;
+	text-align: center;
+	color: #A0A0A0;
+}
+
+
